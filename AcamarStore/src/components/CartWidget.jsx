@@ -1,8 +1,8 @@
 const CartWidget = () => {
     return (
         <div>
-            <button type="button" className="btn btn-light position-relative">
-                🛒<span className="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">1</span>
+            <button type="button" className="btn btn-primary position-relative"><img src="images/bag.svg" alt="Carrito" width={20}/>
+                <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">1</span>
             </button>
         </div>
     )
